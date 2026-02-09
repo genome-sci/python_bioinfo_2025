@@ -12,7 +12,7 @@
 - 10：30～11：00　[2. Numpy　遺伝研　黒川真臣](https://github.com/genome-sci/python_bioinfo_2025/tree/main/2)
 - 11：00～12：00　[3. 表形式ファイルの処理（Pandas）　遺伝研　坂本美佳](https://github.com/genome-sci/python_bioinfo_2025/tree/main/3)
 - 13：00〜14：30　[4. Pythonを用いた基礎的なシングルセルRNA-seq解析　遺伝研　望月さん](https://github.com/genome-sci/python_bioinfo_2025/tree/main/4)
-- 14：40〜15：40　[5. 生成AIを用いたプログラミング等　遺伝研　東光一](https://github.com/genome-sci/python_bioinfo_2025/tree/main/5)
+- 14：40〜15：40　[5. 生成AIを用いたプログラミング等　遺伝研　森宙史](https://github.com/genome-sci/python_bioinfo_2025/tree/main/5)
 
 
 
@@ -67,11 +67,11 @@ git clone https://github.com/genome-sci/python_bioinfo_2025.git
 # ディレクトリに移動
 cd python_bioinfo_2025
 
-# コンテナイメージをビルド (pags:2024という名称のイメージを作成します)
+# コンテナイメージをビルド (pags:2025という名称のイメージを作成します)
 docker build -t pags:2025 .
 
 # jupyter notebook 起動
-docker run -it --rm -v $PWD:/python_bioinfo_2025 -p 8888:8888 pags:2024
+docker run -it --rm -v $PWD:/python_bioinfo_2025 -p 8888:8888 pags:2025
 
 # コンテナ内ででコマンドを実行する
 docker run -it --rm -v $PWD:/python_bioinfo_2025 -p 8888:8888 pags:2025 bash
