@@ -73,7 +73,7 @@ docker build -t pags:2025 .
 # jupyter notebook 起動
 docker run -it --rm -v $PWD:/python_bioinfo_2025 -p 8888:8888 pags:2025
 
-# コンテナ内ででコマンドを実行する
+# コンテナ内でコマンドを実行する
 docker run -it --rm -v $PWD:/python_bioinfo_2025 -p 8888:8888 pags:2025 bash
 ```
 
