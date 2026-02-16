@@ -24,9 +24,9 @@ Windows をご使用の場合、WSL2 を使った Linux 環境か Linux の仮�
 miniforge は[公式ウェブサイト](https://github.com/conda-forge/miniforge)の手順等に従ってインストールしてください。miniforge のかわりに Anaconda、miniconda、micromamba 等を使っても構いません。
 
 - 仮想環境の作成
-`pags2025` という名称で仮想環境を作成し、Python 3.11 をインストールします。Anaconda/miniconda を使用している場合には `mamba` コマンドの代わりに `conda` コマンドを使用してください。
+`pags2025` という名称で仮想環境を作成し、Python 3.12 をインストールします。Anaconda/miniconda を使用している場合には `mamba` コマンドの代わりに `conda` コマンドを使用してください。
 ```
-mamba create -n pags2025 python=3.11
+mamba create -n pags2025 python=3.12
 # 仮想環境の有効化
 mamba activate pags2025
 ```
@@ -39,9 +39,6 @@ mamba install -c conda-forge jupyter
 mamba install -c bioconda biopython bcbio-gff
 mamba install -c conda-forge matplotlib-venn
 mamba install -c conda-forge scanpy python-igraph leidenalg
-mamba install -c conda-forge scvi-tools
-mamba install -c bioconda scvelo
-mamba install -c conda-forge -c bioconda cellrank
 mamba install -c conda-forge scikit-misc
 ```
 
