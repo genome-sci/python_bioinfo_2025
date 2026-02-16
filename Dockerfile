@@ -2,7 +2,7 @@
 ARG BASE_IMAGE=condaforge/miniforge3:25.11.0-1
 FROM ${BASE_IMAGE}
 
-ARG PYTHON_VERSION=3.11
+ARG PYTHON_VERSION=3.12
 ARG WORKDIR=/python_bioinfo_2025
 
 # 1. base環境のPythonバージョンを変更し、必要なパッケージをすべてインストール
@@ -12,12 +12,9 @@ RUN mamba install -y -c conda-forge jupyter matplotlib matplotlib-venn pandas se
     mamba install -y -c bioconda biopython && \
     mamba clean -afy
 
-# 必要ならばsc-seq解析用ライブラリをインストール
-# RUN mamba install -c conda-forge scanpy python-igraph leidenalg && \
-#     mamba install -c conda-forge scvi-tools && \
-#     mamba install -c bioconda scvelo && \
-#     mamba install -c conda-forge -c bioconda cellrank && \
-#     mamba install -c conda-forge scikit-misc
+# sc-seq解析用ライブラリをインストール
+RUN mamba install -c conda-forge scanpy python-igraph leidenalg && \
+    mamba install -c conda-forge scikit-misc
 
 # 2. ポート開放
 EXPOSE 8888
