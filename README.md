@@ -36,7 +36,7 @@ mamba activate pags2025
 仮想環境 `pags2025` を有効化した状態で行なってください。
 ```
 mamba install -c conda-forge jupyter
-mamba install -c bioconda biopython bcbio-gff
+mamba install -c bioconda biopython
 mamba install -c conda-forge matplotlib-venn
 mamba install -c conda-forge scanpy python-igraph leidenalg
 mamba install -c conda-forge scikit-misc
