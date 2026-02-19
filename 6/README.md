@@ -64,7 +64,7 @@ Plan → Act → Observe → Reflect → 再実行
 
 ---
 
-## 3. 代表的ツール（10分）
+## 3. 以前話題になった代表的プロダクト（ツール）
 
 ### ■ GitHub Copilot
 
