@@ -11,8 +11,8 @@
 - 10：05～10：30　[1. Jupyter notebook の使い方 遺伝研　谷沢靖洋](https://github.com/genome-sci/python_bioinfo_2025/tree/main/1)
 - 10：30～11：00　[2. Numpy　遺伝研　黒川真臣](https://github.com/genome-sci/python_bioinfo_2025/tree/main/2)
 - 11：00～12：00　[3. 表形式ファイルの処理（Pandas）　遺伝研　坂本美佳](https://github.com/genome-sci/python_bioinfo_2025/tree/main/3)
-- 13：00〜14：30　[4. Pythonを用いた基礎的なシングルセルRNA-seq解析　遺伝研　望月孝子](https://github.com/genome-sci/python_bioinfo_2025/tree/main/4)
-- 14：40〜15：40　[5. 生成AIを用いたプログラミング等　遺伝研　森宙史](https://github.com/genome-sci/python_bioinfo_2025/tree/main/5)
+- 13：00〜14：30　[4. Pythonを用いた基礎的なシングルセルRNA-seq解析　遺伝研　望月孝子](https://github.com/genome-sci/python_bioinfo_2025/tree/main/5)
+- 14：40〜15：40　[5. 生成AIを用いたプログラミング等　遺伝研　森宙史](https://github.com/genome-sci/python_bioinfo_2025/tree/main/6)
 
 
 
