@@ -7,7 +7,8 @@
     オンライン開催(Zoom webinar)
 
 ## スケジュール：
-【2020年2月20日】  
+【2020年2月20日】
+- 10：00～10：05　冒頭挨拶 遺伝研 黒川顕
 - 10：05～10：30　[1. Jupyter notebook の使い方 遺伝研　谷沢靖洋](https://github.com/genome-sci/python_bioinfo_2025/tree/main/1)
 - 10：30～11：00　[2. Numpy　遺伝研　黒川真臣](https://github.com/genome-sci/python_bioinfo_2025/tree/main/2)
 - 11：00～12：00　[3. 表形式ファイルの処理（Pandas）　遺伝研　坂本美佳](https://github.com/genome-sci/python_bioinfo_2025/tree/main/3)
