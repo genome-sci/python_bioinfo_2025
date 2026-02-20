@@ -11,6 +11,7 @@
 - 補完型AIとの違いを理解する
 - Vibe codingの利点と危険性を理解する
 - 生命科学研究でこれらをどう活用すべきかを考える
+- 注意点：下記の内容は2026年2月20日現在の話です。おそらく1年後は状況がかなり変わっています
 
 ---
 
@@ -102,10 +103,10 @@ Plan → Act → Observe → Reflect → 再実行
 
 ### ■ CLI型エージェント（2025〜）
 
-- [Claude Code](https://code.claude.com/docs/ja/overview)
-- [Gemini CLI](https://geminicli.com/)
-- [Antigravity](https://antigravity.google/) Gemini CLIとAntigravityの[違い](https://cloud.google.com/blog/ja/topics/developers-practitioners/choosing-antigravity-or-gemini-cli)  
-- [Codex CLI](https://developers.openai.com/codex/cli/)
+- [Claude Code](https://code.claude.com/docs/ja/overview) Anthropic社
+- [Gemini CLI](https://geminicli.com/) Google社
+- [Antigravity](https://antigravity.google/) Google社　Gemini CLIとAntigravityの[違い](https://cloud.google.com/blog/ja/topics/developers-practitioners/choosing-antigravity-or-gemini-cli)  
+- [Codex CLI](https://developers.openai.com/codex/cli/) OpenAI社
 
 #### CLI型の特徴
 
@@ -198,7 +199,7 @@ AIと対話しながら即興的に作るスタイル
 
 ### ■ Dev Containerの意義
 
-[Development Containers(Dev Containers)](https://containers.dev/)は、VS Codeの拡張機能で、Dockerコンテナ内で開発環境を構築・実行できます。
+[Development Containers(Dev Containers)](https://containers.dev/)は、Visual Studio Codeの拡張機能で、Dockerコンテナ内で開発環境を構築・実行できます。
 
 - 環境の再現性
 - 依存関係管理
@@ -212,7 +213,7 @@ AIと対話しながら即興的に作るスタイル
 - VS Codeの拡張機能としても提供されている
 - ライブラリやツール等の環境構築も可能
 - HTMLとJS等、複数プログラムファイルを関連付けて生成するのが得意
-- ただし有料
+- ただし有料 (月$17) 2026年2月20日現在
 
 ---
 
@@ -285,8 +286,8 @@ AIは「実装者」
 
 ## 11. 終わりに
 
-車輪の再発明コストは激減した。
+AIコーディングエージェントの高度化・普及によって、プログラムの開発コストは激減した。
 
-誰でもプログラムを生成できて、ある程度のツールを作れる時代。
+誰でもプログラムを生成できて、ある程度のツールを作れる時代になった。
 
 AIが生成したコードと言っても、そのコードを使って得られた解析結果は自分が責任を持つことになります。自分のコードにも責任を持ちましょう。
