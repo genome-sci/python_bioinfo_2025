@@ -71,7 +71,7 @@ Plan → Act → Observe → Reflect → 再実行
 ### ■ [GitHub Copilot](https://github.com/copilot)
 
 - 2021年登場
-- IDE統合型補完AI
+- IDE(integrated development environment) 統合型補完AI
 - コード補完＋チャット
 - 近年はエージェント的機能（Workspace）も追加
 
