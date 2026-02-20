@@ -40,7 +40,7 @@
 
 ### ■ 内部構造（概念）
 
-AI coding agentは主に以下の構成で動く：
+AIコーディングエージェントは主に以下の構成で動く：
 
 - LLM（大規模言語モデル）
 - ツール実行環境（Terminal / Python / Docker など）
@@ -66,7 +66,7 @@ Plan → Act → Observe → Reflect → 再実行
 
 ## 3. 以前話題になった代表的プロダクト（ツール）
 
-### ■ GitHub Copilot
+### ■ [GitHub Copilot](https://github.com/copilot)
 
 - 2021年登場
 - IDE統合型補完AI
@@ -79,7 +79,7 @@ Plan → Act → Observe → Reflect → 再実行
 
 ---
 
-### ■ Cursor
+### ■ [Cursor](https://cursor.com/)
 
 - 2023年登場
 - AI前提設計のIDE
@@ -92,7 +92,7 @@ Plan → Act → Observe → Reflect → 再実行
 
 ---
 
-### ■ Devin
+### ■ [Devin](https://devin.ai/)
 
 - 2024年登場
 - 自律型AIコーディングエージェント
@@ -102,9 +102,10 @@ Plan → Act → Observe → Reflect → 再実行
 
 ### ■ CLI型エージェント（2025〜）
 
-- Claude Code
-- Gemini CLI (Antigravity)
-- Codex CLI
+- [Claude Code](https://code.claude.com/docs/ja/overview)
+- [Gemini CLI](https://geminicli.com/)
+- [Antigravity](https://antigravity.google/) Gemini CLIとAntigravityの[違い](https://cloud.google.com/blog/ja/topics/developers-practitioners/choosing-antigravity-or-gemini-cli)  
+- [Codex CLI](https://developers.openai.com/codex/cli/)
 
 #### CLI型の特徴
 
@@ -169,7 +170,7 @@ AIと対話しながら即興的に作るスタイル
 
 ---
 
-## 5. ChatGPTでのデモ(森はPlus版を使っています)
+## 5. [ChatGPT](https://chatgpt.com/)でのデモ(森はPlus版を使っています)
 
 例：
 
@@ -196,6 +197,8 @@ AIと対話しながら即興的に作るスタイル
 ---
 
 ### ■ Dev Containerの意義
+
+[Development Containers(Dev Containers)](https://containers.dev/)は、VS Codeの拡張機能で、Dockerコンテナ内で開発環境を構築・実行できます。
 
 - 環境の再現性
 - 依存関係管理
