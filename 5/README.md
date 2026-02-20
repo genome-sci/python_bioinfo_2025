@@ -106,7 +106,7 @@ Plan → Act → Observe → Reflect → 再実行
 
 - [Claude Code](https://code.claude.com/docs/ja/overview) Anthropic社
 - [Gemini CLI](https://geminicli.com/) Google社
-- [Antigravity](https://antigravity.google/) Google社　Gemini CLIとAntigravityの[違い](https://cloud.google.com/blog/ja/topics/developers-practitioners/choosing-antigravity-or-gemini-cli)  
+- [Antigravity](https://antigravity.google/) Google社　Gemini CLIとAntigravityの[違い](https://cloud.google.com/blog/ja/topics/developers-practitioners/choosing-antigravity-or-gemini-cli)   Antigravityの方がより本格的なAIコーディングエージェント
 - [Codex CLI](https://developers.openai.com/codex/cli/) OpenAI社
 
 #### CLI型の特徴
